@@ -61,7 +61,7 @@ jobs:
           format: table
           exit-code: 0
 
-      # Build and Push Images
+      # Build , Push Images
       - name: Build and Push Multi-Platform Image
         uses: docker/build-push-action@v6
         with:
